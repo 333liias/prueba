@@ -1,0 +1,23 @@
+Clonar un repositorio en una carpeta:
+git clone <url-del-repositorio>
+
+Ver el estado de los archivos:
+git status
+
+Agregar un archivo o un cambio a un archivo:
+git add <nombre archivo>
+
+Agregar todos los archivos:
+git add .
+
+Hacer un commit("punto de guardado"):
+git commit -m <nombre del commit>
+
+Ver la lista de commits(se sale con shift+q):
+git log
+
+Subir los cambios al repositorio en internet:
+git push origin main
+
+Bajar los cambios del repositorio de internet:
+git pull origin main
