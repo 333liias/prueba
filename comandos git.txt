@@ -16,8 +16,26 @@ git commit -m <nombre del commit>
 Ver la lista de commits(se sale con shift+q):
 git log
 
-Subir los cambios al repositorio en internet:
+Subir los cambios al repositorio en internet(si es a una rama distinta se cambia el main por el nombre de la rama):
 git push origin main
 
 Bajar los cambios del repositorio de internet:
 git pull origin main
+
+Ver actualizaciones de ramas:
+git fetch
+
+Movernos a una rama en particular:
+git checkout <rama>
+
+Crear una rama(se crea desde la rama que uno se encuentra):
+git checkout -b "nombre de rama"
+
+Eliminar una rama remota (en GitHub):
+git push origin --delete <nombre de rama>
+
+Eliminar una rama local:
+git Branch -d <nombre de rama
+
+Ver todas las ramas( con un -a se ven las remotas tambien):
+git branch
